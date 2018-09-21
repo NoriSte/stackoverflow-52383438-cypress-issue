@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "run:all",
+    "test": "npm run run:all",
     "run:testcafe": "testcafe chrome testcafe.test.js -s .",
     "run:cypress": "cypress run --spec 'cypress.test.js'",
     "run:puppeteer": "jest puppeteer.test.js",
-    "run:all": "run:testcafe & run:cypress & run:puppeteer"
+    "run:all": "npm run run:testcafe && npm run run:cypress && npm run run:puppeteer"
   },
   "devDependencies": {
     "cypress": "^3.1.0",
