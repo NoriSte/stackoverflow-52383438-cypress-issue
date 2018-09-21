@@ -5,7 +5,7 @@ module.exports = {
     suiteName: 'StackOverflow 52383438 question',
     testName: 'Focus the milestone input field',
 
-    repoURL: 'https://github.com/NoriSte/stackoverflow-52383438-cypress-issue',
+    repoURL: 'https://github.com/NoriSte/stackoverflow-52383438-cypress-issue/issues/new',
     issueName: 'New issue ' + Math.floor((Math.random() * 1000) + 1),
 
     loginURL: 'https://github.com/login',
