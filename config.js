@@ -5,7 +5,7 @@ module.exports = {
     suiteName: 'StackOverflow 52383438 question',
     testName: 'Focus the milestone input field',
 
-    repoURL: 'https://github.com/NoriSte/feti-workshop-e2e-testing-with-puppeteer/issues/new', // TODO modificare
+    repoURL: 'https://github.com/NoriSte/stackoverflow-52383438-cypress-issue',
     issueName: 'New issue ' + Math.floor((Math.random() * 1000) + 1),
 
     loginURL: 'https://github.com/login',
