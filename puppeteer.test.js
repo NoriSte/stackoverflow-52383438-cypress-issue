@@ -28,6 +28,8 @@ describe(`Puppeteer ${config.suiteName}`, () => {
     await page.click(config.milestoneTriggerSelector);
     await page.screenshot({path: './screenshot-puppeteer.png'});
 
+    await page.waitForSelector(config.selectorExpected);
+
     const activeElementClasses = await page.evaluate(() => [...document.activeElement.classList]);
     expect(activeElementClasses).toEqual(expect.arrayContaining([config.classExpected]));
   }, 60000);

@@ -17,5 +17,6 @@ module.exports = {
     milestoneTriggerSelector: '.sidebar-milestone > .js-issue-sidebar-form > .details-reset > .text-bold',
     milestoneInputSelector: '#context-milestone-filter-field',
 
-    classExpected: 'form-control',
+    selectorExpected: '[aria-label="Type or choose a milestone"]',
+    classExpected: 'js-filterable-field',
 };

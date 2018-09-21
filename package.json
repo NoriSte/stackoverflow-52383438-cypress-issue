@@ -8,7 +8,7 @@
     "run:testcafe": "testcafe chrome testcafe.test.js -s .",
     "run:cypress": "cypress run --spec 'cypress.test.js'",
     "run:puppeteer": "jest puppeteer.test.js",
-    "run:all": "npm run run:testcafe && npm run run:cypress && npm run run:puppeteer"
+    "run:all": "npm run run:testcafe && npm run run:puppeteer && npm run run:cypress"
   },
   "devDependencies": {
     "cypress": "^3.1.0",
