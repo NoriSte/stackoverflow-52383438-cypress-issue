@@ -1,0 +1,19 @@
+{
+  "name": "52383438",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "run:all",
+    "run:testcafe": "testcafe chrome testcafe.test.js -s .",
+    "run:cypress": "cypress run --spec 'cypress.test.js'",
+    "run:puppeteer": "jest puppeteer.test.js",
+    "run:all": "run:testcafe & run:cypress & run:puppeteer"
+  },
+  "devDependencies": {
+    "cypress": "^3.1.0",
+    "jest": "^23.6.0",
+    "puppeteer": "^1.8.0",
+    "testcafe": "^0.22.0"
+  }
+}
