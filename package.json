@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run run:all",
     "run:testcafe": "testcafe chrome testcafe.test.js -s .",
-    "run:cypress": "cypress run --spec 'cypress.test.js'",
+    "run:cypress": "cypress run --headed --no-exit --spec 'cypress.test.js'",
     "run:puppeteer": "jest puppeteer.test.js",
     "run:all": "npm run run:testcafe && npm run run:puppeteer && npm run run:cypress"
   },
