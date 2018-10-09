@@ -44,7 +44,7 @@ click <summary class="text-bold discussion-sidebar-heading discussion-sidebar-to
 As you can see there aren't any `mousemove` event in Cypress and I guess that's the problem with the GitHub mileston widget (and it explains event the reason why everything works well as soon as I move the cursor manually into the Cypress window).
 
 If you'd liket to run the tests yourself:
-- disable the 2FA if of GitHub account if you have enabled it
+- disable the 2FA of GitHub account if you have enabled it
 - open ```config.js``` and edit
 ```javascript
 githubUser: 'YOURUSERNAME',
